@@ -1,0 +1,189 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.vh {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 5px solid white;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/ac9aedf1-a687-4c5d-965c-2fc3eac84aea/f0d4187a-a01f-468b-878d-4303b4f0e414/VE-en-20221206-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+}
+.vh nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.vh .contenido {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+.vh .contenido h1 {
+  font-size: 35px;
+  font-weight: 900;
+}
+.vh .contenido h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+.vh .contenido h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.vh .contenido .fila-responsive {
+  display: flex;
+}
+.vh .contenido .fila-responsive button {
+  padding: 12px 25px;
+  background-color: red;
+  color: white;
+  font-weight: 900;
+}
+.vh .contenido .fila-responsive input {
+  padding: 12px 25px;
+  width: 450px;
+}
+
+.fila {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: black;
+  border-bottom: 5px solid white;
+}
+@media only screen and (min-width: 768px) {
+  .fila {
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    border-bottom: 5px solid white;
+  }
+}
+
+.letra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  align-items: start;
+  gap: 20px;
+  color: white;
+}
+
+.titular {
+  font-size: 50px;
+  padding: 10px;
+}
+
+.columna-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titular {
+  text-align: center;
+}
+
+.parrafo {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: black;
+  border-bottom: 5px solid white;
+}
+@media only screen and (min-width: 768px) {
+  .parrafo {
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+  }
+}
+
+.texto {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.texto2 {
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.img2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.disfruta {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.disfruta2 {
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+}
+
+.imagen4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.crea {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.niños {
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+}
+
+.imagen5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.español {
+  padding: 15px 20px;
+}
+
+.inicio {
+  padding: 15px 20px;
+  margin-left: 15px;
+  background-color: red;
+}/*# sourceMappingURL=netflix.css.map */
